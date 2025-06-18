@@ -18,10 +18,9 @@ Key Features
 Repository Structure
   ct-scan-segmentation/
   │
-  ├── data/                  # CT angiography DICOMs (not included due to PHI)
-  ├── notebooks/             # Jupyter notebooks for analysis and visualization
   ├── sam_pipeline/          # Python scripts for SAM integration and segmentation
-  ├── results/               # Output figures and statistical results
+  ├── results/               # Python scripts for calculating the accuracy of SAM segmentations
+  ├── poster/                # Pdf of the research poster and a link to the publication
   └── README.md              # Project overview and instructions
 
 Methods
@@ -44,7 +43,7 @@ Sample Output
 Volume comparison chart and statistical outputs available in results/.
 
 Note on Data Privacy
-Due to HIPAA regulations, CT angiography scan data is not included in this repository. Dummy or simulated data may be added for demonstration purposes.
+Due to HIPAA regulations, CT angiography scan data is not included in this repository.
 
 Author
 Dominic Millan Profit*
